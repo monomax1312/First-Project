@@ -3,86 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
     <title>Demo</title>
     <body> 
 
         <form action="/test">
-            <div>
-                <label for="text">Введите запрос</label>
-           <input type="text" 
-           placeholder="Введите запрос" 
-           id="query" 
-           name="search_query" 
-           title="Нужно ввести запрос"
-           minlength="3"
-           maxlength="20"
-           required 
-           pattern="" >
-        </div>
-
-        <div>
-            <label for="agree">Согласен с обработкой данных</label>
-            <input type="checkbox" name="agree" id="agree">
-        </div>
-        
-        <div>
-            <input type="radio" name="search" id="YouTube" value="YouTube">
-            <label for="YouTube">Поиск на YouTube</label>
-        </div>
-
-        <div>
-            <textarea name="text" id="text" rows="10" cols="100" placeholder="введите текст"></textarea>
-            <label for="text">комментарий</label>
-        </div>
-<div>
-    <label for="topic">Тематика</label>
-    <select name="topic" id="topic">
-    <option value="1">Все</option>
-    <optgroup label="Популярные"></optgroup>
-    <option value="2">Животные</option>
-    <option value="3" selected>Разработка</option>
-    <optgroup label="Популярные"></optgroup>
-    <option value="2">Животные</option>
-    <option value="3" selected>Разработка</option>
-
-    <div>
-        <label for="volume">Громкость Видео</label>
-        <input type="range" name="volume" id="volume" min="0" max="10" step="">
-    </div>
-
-    <div>
-        <label for="num">Оценка</label>
-        <input type="number" name="num" id="num" min="0" max="10" step="">
-    </div>
-
-</select>
-</div>
-        
-        <button>Кнопка Ютюба</button>
-        
-
-        <head>Свяжитесь со мной</head>
+          
         <body>
+            <main>
+        <h1>Свяжитесь со мной</h1>
+       
             <div>
-                <input type="email" name="email" placeholder="123@gmail.com" id="email">
-                <label for="email">E-mail</label>     
+                <input type="email" name="email" placeholder="123@gmail.com" id="email" required >
+                <label for="email">E-mail</label>  
+                  
             </div>
 
             <div>
-                <input type="text" name="text" placeholder="123@gmail.com" id="text">
-                <label for="text">Telegramm</label>
+                <input type="text" name="Telegramm" placeholder="123@gmail.com" id="Telegramm">
+                <label for="Telegramm">Telegramm</label>
             </div>
 
             <div>
-                <label for="topic">Тема</label>
-                <input type="text" name="text" placeholder="Приобретение курсов" id="text">
-                <select name="topic" id="topic"> 
+                <label for="topic" >Тема</label>
+                <input type="text" name="text" id="text">
+                <select name="topic" id="topic" required> 
+                    <option value="courses">Приобретение курсов</option>
+                    <option value="fidback">Обратная связь</option>
                 </select>
             </div>
-            <button>Свяжитесь со мной</button>
 
+            <div>
+                <label for="comment">Комментарий</label>
+                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+            </div> 
+
+             <button>Отправить</button>
+
+        </main>
         </body>
         
     </body>
