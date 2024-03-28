@@ -1,0 +1,18 @@
+#herobutton {
+    background-color: #4262FF;
+    color: white;
+}
+.imeg1{
+float: left;
+}
+
+.text1{
+    float: right;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.link{
+    color: #4262FF;
+    text-decoration: underline;
+}
