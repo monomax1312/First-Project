@@ -2,14 +2,34 @@
     background-color: #4262FF;
     color: white;
 }
-.imeg1{
-float: left;
-}
 
-.text1{
-    float: right;
+h1,h2{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #050038;
+}
+.heroText{
+    font-weight: 400;
     font-size: 18px;
     line-height: 24px;
+    color: #050038;
+}
+
+.sectionText{
+    float: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color:rgba(5, 0, 56, 0.6);
+}
+
+.img{
+    float: right;
+}
+
+.imeg1{
+float: left;
 }
 
 .link{
