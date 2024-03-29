@@ -1,7 +1,24 @@
+*::selection{
+    background-color: purple;
+}
+
 #herobutton {
     background-color: #4262FF;
     color: white;
 }
+
+#herobutton:hover {
+    background-color: #4262;
+}
+
+#herobutton:active {
+    background-color: #b5f013;
+}
+
+.heroForm input:focus{
+    background-color: #b5f013;
+}
+
 
 h1,h2{
     font-weight: 400;
@@ -16,23 +33,35 @@ h1,h2{
     color: #050038;
 }
 
-.sectionText{
-    float: left;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color:rgba(5, 0, 56, 0.6);
-}
-
-.img{
-    float: right;
-}
-
-.imeg1{
-float: left;
-}
 
 .link{
     color: #4262FF;
     text-decoration: underline;
 }
+
+.link:hover {
+    color: #0a1c78;
+}
+
+header a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #050038;
+    text-decoration: none;
+}
+
+.heroForm + p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #050038;}
+
+    nav ul {
+        list-style: none ;
+    }
+
+    .sectionList {
+        list-style-type: none;
+        list-style-image: url('../resource2/free-icon-check-mark-5290058.png');
+    }
