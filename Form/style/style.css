@@ -13,6 +13,14 @@ input,select,textarea {
     background-color: rgb(161, 151, 173);
 }
 
+input:invalid {
+background-color: red;
+}
+
+input:valid {
+    background-color: green;
+}
+
 label {
     color: white;
 }
@@ -22,6 +30,4 @@ button {
     background-color:blue
 }
 
-input[type="email"]{
-    background-color: red;
-}
+

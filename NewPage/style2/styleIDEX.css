@@ -11,6 +11,10 @@
     background-color: #4262;
 }
 
+button {
+    background-color: #FFFFFF;
+}
+
 #herobutton:active {
     background-color: #b5f013;
 }
@@ -20,15 +24,31 @@
 }
 
 
-h1,h2{
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
+h1{
+    font-size: 58px;
+    width: 1162px;
+    height: 72px;
+    padding: 10px 10px 10px 10px;
     color: #050038;
+    margin-left: 40px;
 }
+
+h2{
+    font-size: 42px;
+    width: 1200px;
+    height: 72px;
+    padding: 10px 10px 10px 10px;
+    color: #050038;
+    margin-left: 3px;
+}
+
+
 .heroText{
+
     font-weight: 400;
     font-size: 18px;
+    width: 516px;
+    height: 155px;
     line-height: 24px;
     color: #050038;
 }
@@ -44,18 +64,15 @@ h1,h2{
 }
 
 header a{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #050038;
-    text-decoration: none;
+    padding: 115px 115px 115px 115px;
 }
 
 .heroForm + p {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    color: #050038;}
+    color: #050038;
+}
 
     nav ul {
         list-style: none ;
@@ -63,5 +80,40 @@ header a{
 
     .sectionList {
         list-style-type: none;
-        list-style-image: url('../resource2/free-icon-check-mark-5290058.png');
     }
+
+    .sectionList li::marker {
+        content: url('../resource2/free-icon-check-mark-5290058.png');
+    }
+
+   
+    .ExperimetnRed {
+        background: red;
+    }
+
+    .ExperimetnBlue {
+        background:white;
+        width: 400px;
+        height: 100px;
+        color: rgb(12, 12, 12);
+        padding: 10px 20px;
+        margin: 3px;
+    }
+
+    .miro1{
+    font-size: 16px;
+    height: 48px;
+    line-height: 40px;
+    color: #050038;
+    }
+
+    .miro2{
+        font-size: 16px;
+    height: 48px;
+    line-height: 40px;
+    color: #050038;
+    }
+
+
+    
+ 
