@@ -1,14 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
 *::selection{
     background-color: purple;
 }
 
 #herobutton {
-    background-color: #4262FF;
-    color: white;
+    background-color: #4262;
+    border-radius: 50%;
 }
 
 #herobutton:hover {
-    background-color: #4262;
+    background-color: #4262FF;
+    color: white;
+    transition: background-color 1s , border-radius 2s;
 }
 
 button {
@@ -19,40 +29,10 @@ button {
     background-color: #b5f013;
 }
 
+
 .heroForm input:focus{
     background-color: #b5f013;
 }
-
-
-h1{
-    font-size: 58px;
-    width: 1162px;
-    height: 72px;
-    padding: 10px 10px 10px 10px;
-    color: #050038;
-    margin-left: 40px;
-}
-
-h2{
-    font-size: 42px;
-    width: 1200px;
-    height: 72px;
-    padding: 10px 10px 10px 10px;
-    color: #050038;
-    margin-left: 3px;
-}
-
-
-.heroText{
-
-    font-weight: 400;
-    font-size: 18px;
-    width: 516px;
-    height: 155px;
-    line-height: 24px;
-    color: #050038;
-}
-
 
 .link{
     color: #4262FF;
@@ -63,8 +43,12 @@ h2{
     color: #0a1c78;
 }
 
-header a{
-    padding: 115px 115px 115px 115px;
+.sectionList {
+    list-style-type: none;
+}
+
+.sectionList li::marker {
+    content: url('../resource2/free-icon-check-mark-5290058.png');
 }
 
 .heroForm + p {
@@ -72,47 +56,107 @@ header a{
     font-size: 14px;
     line-height: 20px;
     color: #050038;
+    margin: 8px 0 52px 0;
+}
+
+nav{
+    padding: 33px 50px;
+    border-bottom: 1px solid #4262FF;
+    margin-bottom: 60px;
 }
 
     nav ul {
+        padding: 0;
+        margin: 0;
         list-style: none ;
     }
-
-    .sectionList {
-        list-style-type: none;
+    h1{
+        margin: 0 0 17px 0;
+        text-align: center;
+    }
+    
+    h2{
+        margin: 0 0 19px 0;
+    }
+    
+    h1,h2{
+        font-size: 58px;
+        width: 1162px;
+        height: 72px;
+        padding: 10px 10px 10px 10px;
+        color: #050038;
+        margin-left: 40px;
+    }
+    
+    
+    .heroText{
+    
+        margin: 0 0 55px 0;
+        color: #050038;
+        text-align: justify;
     }
 
-    .sectionList li::marker {
-        content: url('../resource2/free-icon-check-mark-5290058.png');
+    .sectionText{
+        color: #696688;
+        margin: 0 0 40px 20px;
     }
 
-   
-    .ExperimetnRed {
-        background: red;
+    .heroForm input{
+        border-radius: 32px;
+        border-bottom: 1px solid #4262FF;
+        height: 38px;
     }
-
-    .ExperimetnBlue {
-        background:white;
-        width: 400px;
-        height: 100px;
-        color: rgb(12, 12, 12);
+    
+    .heroForm button{
+        height: 48px;
+        border: 0;
+        border-radius: 32px;
+        border-bottom: 1px solid #4262FF;
         padding: 10px 20px;
-        margin: 3px;
     }
 
-    .miro1{
-    font-size: 16px;
-    height: 48px;
-    line-height: 40px;
-    color: #050038;
+    footer{
+        background-color: #050038;
+        padding: 47px 40px;
     }
 
-    .miro2{
-        font-size: 16px;
-    height: 48px;
-    line-height: 40px;
-    color: #050038;
+    footer a{
+        color: white;
+        text-decoration: none;
     }
+
+    .exp div{
+        width: 200px;
+        height: 200px;
+        background-color:  #050038;
+        margin: 10px;
+        transition: margin-left 2s;
+    }
+
+    .exp div:nth-child(1) {
+        margin-left: 400px;       
+        transition-timing-function: ease-out;
+    }
+
+    .exp div:nth-child(2) {
+        margin-left: 400px;
+        transition-timing-function: ease-out;
+     }
+
+     .exp div:nth-child(3) {
+        margin-left: 400px;
+        transition-timing-function: ease-out;
+     }
+
+     .exp div:nth-child(4) {
+        margin-left: 400px;
+        transition-timing-function: ease-out;
+     }
+   
+ 
+ 
+
+    
 
 
     
