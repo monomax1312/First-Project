@@ -1,0 +1,29 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+    background: #1c1b21;
+    color: #fafafa;
+    font-size: 55px;
+    font-family: 'fira sans', sans-serif;
+}
+
+.conteiner{
+    border: 10px solid #6c38cc;
+    display: flex; 
+    flex-wrap: wrap;
+    height: 200vh;
+   
+}  
+
+.item{
+    background: #232228;
+    border: 1px solid #6c38cc;
+    text-align: center;
+    padding: 10px;
+} 
+
+.item0{
+    margin-left: auto;
+}

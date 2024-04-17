@@ -15,32 +15,37 @@
             <main>
         <h1>Свяжитесь со мной</h1>
        
-            <div>
+        <section >
+            <div class="field">
+                <img src="./resources/unread-message_2198859.png" alt="иконка почты">
+                <label for="email">E-mail</label>
                 <input type="email" name="email" placeholder="123@gmail.com" id="email" required >
-                <label for="email">E-mail</label>  
                   
+            
             </div>
 
-            <div>
-                <input type="text" name="Telegramm" placeholder="123@gmail.com" id="Telegramm">
+           
+            <div class="field">
+                <img src="./resources/TELEGA.png" alt="иконка телеги">
                 <label for="Telegramm">Telegramm</label>
+                <input type="text" name="Telegramm" placeholder="..." id="Telegramm">               
             </div>
-
-            <div>
-                <label for="topic" >Тема</label>
-                <input type="text" name="text" id="text">
+            
+            <div class="field">
+                <img src="./resources/TEMA.png" alt="иконка темы">
+                <label for="topic">Тема</label>     
                 <select name="topic" id="topic" required> 
                     <option value="courses">Приобретение курсов</option>
                     <option value="courses">Вопрос по оплате</option>
-                    <option value="fidback">Заказ тренинга</option>
-                </select>
+                    <option value="fidback">Заказ тренинга</option> 
+                 </select>     
             </div>
-
-            <div>
+        
+            <div class="field">
                 <label for="comment">Комментарий</label>
                 <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
             </div> 
-
+        </section>
              <button>Отправить</button>
 
              

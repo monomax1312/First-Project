@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./NewPage/style2/styleIDEX.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -24,11 +26,11 @@
     </header>
     <title>Моя первая страница</title>
 
-        <main>
+    <main>
 
-            <section id="hero">
-
-                <h1>Просто рисовать на доске уже недостаточно</h1>
+        <section id="hero">
+            <div>
+                <h1>Просто рисовать </br> на доске </br> уже недостаточно</h1>
 
                 <p class="heroText">Решайте все задачи вместе при помощи Miro. Это пространство можно просто и бесплатно
                     использовать в качестве интерактивной доски, однако его возможности гораздо шире. Miro — это
@@ -36,58 +38,64 @@
                 <form action="/register" method="get" class="heroForm">
                     <input type="email" name="email" id="email">
                     <button id="herobutton">Начать бесплатно</button>
-                    <p>Всегда бесплатно - кредитная карта не нужна</p>
+                    <p>Всегда бесплатно - кредитная карта не нужна
+                    <div class="herologos">45 миллионов пользователей
+                        <img src="../First Project/NewPage/resource2/continental-54.svg" alt="Логотип Партнеров"
+                            width="50" height="20">
+                        <img src="../First Project/NewPage/resource2/aeo-certification.svg" alt="Логотип 2" width="50"
+                            height="20">
+                        <img src="../First Project/NewPage/resource2/gazprom-neft-logo-rus.svg" alt="Логотип 3"
+                            width="50" height="20">
+                    </div>
+                    </p>
                 </form>
-                <div class="img">
-                    <img src="./NewPage/resource2/whiteboarding_hero-image_EN_3-2_standard.webp"
-                        alt="Изображение экрана работы Miro" width="600" height="400">
-                </div>
+            </div>
+            <div class="img">
+                <img src="./NewPage/resource2/whiteboarding_hero-image_EN_3-2_standard.webp"
+                    alt="Изображение экрана работы Miro" width="600" height="400">
+            </div>
 
-            </section>
+        </section>
 
-            <section>
-                <div>
-                    <h2>Создан для всех типов команд</h2>
-                    <p class="sectionText">Более 60 млн пользователей по всему миру доверяют Miro</p>
-                    <ul class="sectionList">
-                        <li>Создавайте варфреймы</li>
-                        <li>Подключайте заказчиков в процессе дизайна</li>
-                        <li>Проводите вовлкающие дизан-воркшоп</li>
-                    </ul>
-                </div>
+        <section class="section2">
+            
+            <div class="imeg1">
+                <img src="./NewPage/resource2/whiteboarding_product-benefits_01-cross-device_EN.webp" alt="Презентация"
+                    width="600" height="400">
+            </div>
+           
+            <div>
+                <h2>Проводите мозговые штурмы — с участием каждого, в любое время, из любой точки мира</h2>
+                <p class="sectionText">Объединяйте всех участников проекта независимо от их местонахождения или часового
+                    пояса. Без проблем, за секунды переноситесь из реального в цифровое пространство, используя
+                    интерактивные дисплеи, приложение для распознавания заметок, а также приложения iOS и Android. </p>
+                <ul class="sectionList">
+                    <li>Создавайте варфреймы</li>
+                    <li>Подключайте заказчиков в процессе дизайна</li>
+                    <li>Проводите вовлкающие дизан-воркшоп</li>
+                </ul>
+            </div>
 
+          
 
-            </section>
-
-            <section>
-                <div class="imeg1">
-                    <img src="./NewPage/resource2/whiteboarding_product-benefits_01-cross-device_EN.webp"
-                        alt="Презентация" width="600" height="400">
-
-                </div>
-            </section>
-
-            <section class="exp">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </section>
-            <footer>
-                <div class=>&#169; 2023 Miro</div>
-                <div class=>
-                    <a href="#">Условия пользования</a>
-                    <a href="#">Политика конфиденциальности</a>
-                    <a href="#">Управление файлами cookies</a>
-                </div>
-            </footer>
-
-            <a href="#" class="link">Узнать больше</a>
-
-        </main>
+        </section>
 
 
-    </body>
+        <footer>
+            <div class=>&#169; 2023 Miro</div>
+            <div class=>
+                <a href="#">Условия пользования</a>
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Управление файлами cookies</a>
+            </div>
+        </footer>
+
+        <a href="#" class="link">Узнать больше</a>
+
+    </main>
+
+
+</body>
 
 
 </html>

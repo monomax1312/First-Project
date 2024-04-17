@@ -2,32 +2,93 @@ h1 {
     color: white;
     font-size: 36px;
     font-weight: 700;
-    font-family: 'andale mont',monospace ;
+    font-family: sans-serif ;
+    text-align: center;
+    margin: 0 0 32px 0;
+}
+
+body {
+    background-color: rgb(175, 128, 228);
 }
 
 main {
-    background-color: rgb(54, 28, 84);
+    background-color: rgb(87, 52, 128);
+    border-radius: 10px;
+    padding: 48px;
+    max-width:600px;
+    margin: 0 auto;
 }
 
 input,select,textarea {
     background-color: rgb(161, 151, 173);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+    padding: 27px 48px 12px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
 }
 
+.field{
+    margin-bottom: 16px;
+    position: relative;
+}
+
+label{
+    position: absolute;
+    top: 12px;
+    left: 48px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 120%;
+}
+
+input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+select::placeholder{
+    color: black;
+    font-size: 16px;
+}
+textarea::placeholder{
+    color: black;
+    font-size: 16px;
+}
+
+
 input:invalid {
-background-color: red;
+
+font-family: sans-serif ;
 }
 
 input:valid {
-    background-color: green;
+   
+    font-family: sans-serif ;
 }
 
 label {
     color: white;
+    font-family: sans-serif ;
 }
 
 button {
     color: white;
-    background-color:blue
+    background-color:blue;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.field img{
+    position: absolute;
+    top: 17px;
+    left: 16px;
 }
 
 
